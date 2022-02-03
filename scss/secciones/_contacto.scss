@@ -1,0 +1,38 @@
+form{
+    text-align: center;
+    font-size: 25px;
+    padding: 350px;
+    border: none;
+    margin: 70px;
+    background-image: url(https://www.crushpixel.com/big-static16/preview4/guest-room-with-beautiful-comfortable-2513930.jpg);
+    }
+h2{
+    text-align: center;
+}
+@media (min-width: 320px) {
+    form{
+        text-align: center;
+        font-size: 12px;
+        padding: 127px;
+        border: none;
+        margin: 27px;
+        }  
+    h2{
+        font-size: 10px;
+        text-align: left;
+    }
+      }
+      @media (min-width: 768px) {
+        form{
+            text-align: center;
+            font-size: 25px;
+            padding: 350px;
+            border: none;
+            margin: 70px;
+            background-image: url(https://www.crushpixel.com/big-static16/preview4/guest-room-with-beautiful-comfortable-2513930.jpg);
+            } 
+            h2{
+                font-size: 30px;
+                text-align: center;
+            }
+          }
