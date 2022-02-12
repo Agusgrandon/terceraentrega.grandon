@@ -3,7 +3,14 @@ header{
     background-color: whitesmoke;
     color: darksalmon;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;  
+    a{
+        color: salmon;
+        text-decoration: none;
+        &:hover{
+            color: salmon;
+        }
+        }  
     h1{
         font-style: italic;
         font-size: 60px;
