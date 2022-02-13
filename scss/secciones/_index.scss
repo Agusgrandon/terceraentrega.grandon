@@ -1,6 +1,6 @@
 
 header{
-    background-image: url(/img/fondo/descarga.jpg);
+    background-image: url(/img/fondo/images.jpg);
     color: darksalmon;
     display: flex;
     justify-content: space-between;  
@@ -133,7 +133,7 @@ footer{
           
           @media (min-width: 768px) {
             header{
-                background-color: whitesmoke;
+                
                 color: darksalmon;
                 display: flex;
                 justify-content: space-between;
@@ -141,30 +141,35 @@ footer{
                 font-style: italic;
                 font-size: 60px;
                 text-align: center;
+                color: black;
+                font-weight: bold;
+                background-image: url(https://media.istockphoto.com/vectors/seamless-pattern-with-pink-flowers-and-dark-leaves-old-fashioned-vector-id1356725095?b=1&k=20&m=1356725095&s=170667a&w=0&h=EFXMQFj2sZPS__MK1k1GRW8NxLqe4ht_lJuPeEtOUPk=);
             }
                 ul{
                     display: flex;
                 justify-content: center;
             
-                    color: darksalmon;
+                    color: black;
             
                     li{
                         list-style: none;
                 display: inline;
                 justify-content: center;
-                padding: 15px;
-                border: none ;
+                padding: 5px;
+                border: none;
                 margin: 15px;
                     }
                     a{
-                        color: salmon;
+                        color: black;
                         &:hover{
-                            color: black;
+                            color: darksalmon;
                         }
                 
                         text-decoration: none;
+                        font-weight: bold;
                     }
                 }
             }
+           
                 }
             
