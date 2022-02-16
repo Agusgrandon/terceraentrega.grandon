@@ -89,6 +89,7 @@ footer{
         padding: 15px;
         border: none ;
         margin: 15px;
+        font-family: 'Times New Roman', Times, serif;
         }  
         header{
             background-color: whitesmoke;
@@ -97,7 +98,7 @@ footer{
             justify-content: center;
             flex-direction: column;
         h1{
-            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
             font-size: 20px;
             text-align: center;
             color: black;
@@ -114,7 +115,7 @@ footer{
                     list-style: none;
                     display: inline;
                     justify-content: center;
-                    padding: 2px;
+                    padding: 0px;
                     border: none ;
                     margin: 0px;
                     flex-direction: column;
@@ -124,6 +125,7 @@ footer{
                         color: black;
                     }
                     text-decoration: none;
+                    font-family: 'Times New Roman', Times, serif;
                 }
             }
         }
@@ -135,7 +137,7 @@ footer{
                 justify-content: center;
                 flex-direction: column;
             h1{
-                font-style: italic;
+                font-family: 'Times New Roman', Times, serif;
                 font-size: 60px;
                 text-align: center;
                 color: black;
@@ -163,6 +165,7 @@ footer{
                         }
                         text-decoration: none;
                         font-weight: bold;
+                        font-family: 'Times New Roman', Times, serif;
                     }
                 }
             }
@@ -175,10 +178,11 @@ footer{
                  height: 100vh;
                  object-fit: cover;
             }
-            .tarjeta{
-                &:hover{
-                    color: darksalmon;
-                }
+            h2{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            h3{
+                font-family: 'Times New Roman', Times, serif;
             }
                 }
             
