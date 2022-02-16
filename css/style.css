@@ -171,7 +171,18 @@ h2 {
     text-align: center; }
   h3 {
     font-size: 10px;
-    text-align: center; } }
+    text-align: center; }
+  .iconopadre {
+    display: flex;
+    justify-content: center; }
+  .iconohijo {
+    width: 40px;
+    height: 40px;
+    display: inline;
+    justify-content: center;
+    padding: 15px;
+    border: none;
+    margin: 15px; } }
 
 @media (min-width: 768px) {
   form {
@@ -186,7 +197,29 @@ h2 {
     text-align: center; }
   h3 {
     font-size: 25px;
-    text-align: center; } }
+    text-align: center; }
+  .iconopadre {
+    display: flex;
+    justify-content: center; }
+  .iconohijo {
+    width: 70px;
+    height: 70px;
+    display: inline;
+    justify-content: center;
+    padding: 15px;
+    border: none;
+    margin: 15px; } }
+
+@media (min-width: 320px) {
+  .icono1 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 35px;
+    right: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0; } }
 
 @media (min-width: 768px) {
   .icono1 {
