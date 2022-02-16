@@ -94,9 +94,9 @@ footer {
         list-style: none;
         display: inline;
         justify-content: center;
-        padding: 5px;
+        padding: 2px;
         border: none;
-        margin: 5px;
+        margin: 0px;
         flex-direction: column; }
       header ul a {
         color: salmon;
@@ -138,7 +138,9 @@ footer {
     color: darksalmon; }
   .carrusel_img {
     height: 100vh;
-    object-fit: cover; } }
+    object-fit: cover; }
+  .tarjeta:hover {
+    color: darksalmon; } }
 
 form {
   text-align: center;
@@ -157,10 +159,14 @@ h2 {
     font-size: 12px;
     padding: 127px;
     border: none;
-    margin: 27px; }
+    margin: 27px;
+    background-image: url(https://media.istockphoto.com/vectors/seamless-pattern-with-pink-flowers-and-dark-leaves-old-fashioned-vector-id1356725095?b=1&k=20&m=1356725095&s=170667a&w=0&h=EFXMQFj2sZPS__MK1k1GRW8NxLqe4ht_lJuPeEtOUPk=); }
   h2 {
     font-size: 10px;
-    text-align: left; } }
+    text-align: center; }
+  h3 {
+    font-size: 10px;
+    text-align: center; } }
 
 @media (min-width: 768px) {
   form {
@@ -172,4 +178,7 @@ h2 {
     background-image: url(https://www.crushpixel.com/big-static16/preview4/guest-room-with-beautiful-comfortable-2513930.jpg); }
   h2 {
     font-size: 30px;
+    text-align: center; }
+  h3 {
+    font-size: 25px;
     text-align: center; } }
