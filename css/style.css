@@ -79,7 +79,17 @@ footer {
         text-decoration: none;
         font-family: 'Times New Roman', Times, serif; }
         header ul a:hover {
-          color: black; } }
+          color: black; }
+    header h2 {
+      font-family: 'Times New Roman', Times, serif; }
+    header h3 {
+      font-family: 'Times New Roman', Times, serif; }
+    header a {
+      font-family: 'Times New Roman', Times, serif; }
+    header h5 {
+      font-family: 'Times New Roman', Times, serif; }
+    header p {
+      font-family: 'Times New Roman', Times, serif; } }
 
 @media (min-width: 768px) {
   header {
