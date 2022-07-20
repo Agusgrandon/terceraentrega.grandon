@@ -44,6 +44,8 @@ footer {
     text-decoration: none; }
     footer a:hover {
       color: whitesmoke; }
+  footer spam {
+    color: salmon; }
 
 .card {
   margin: 20px;
@@ -219,25 +221,3 @@ h2 {
     padding: 15px;
     border: none;
     margin: 15px; } }
-
-@media (min-width: 320px) {
-  .icono1 {
-    width: 35px;
-    height: 35px;
-    position: relative;
-    bottom: 35px;
-    right: 40px;
-    position: fixed;
-    bottom: 0;
-    right: 0; } }
-
-@media (min-width: 768px) {
-  .icono1 {
-    width: 70px;
-    height: 70px;
-    position: relative;
-    bottom: 35px;
-    right: 40px;
-    position: fixed;
-    bottom: 0;
-    right: 0; } }
